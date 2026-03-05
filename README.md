@@ -1,135 +1,131 @@
-Optimizing IT Support Team Performance Using Analytics
+# 📊 Optimizing IT Support Team Performance Using Analytics
 
-1.Title of the Project:
+## 📌 Project Overview
 
-Optimizing IT Support Team Performance Using Analytics
+IT support teams handle a large number of support tickets daily. Delays in response, inconsistent resolution times, repeated escalations, and uneven workload distribution can reduce service quality and customer satisfaction.
 
-2. Problem Statement:
-
-IT support teams handle large volumes of tickets daily. Delays in response, inconsistent resolution times, repeated escalations, and uneven workload distribution reduce service quality and user satisfaction.
-
-The core problem is the lack of data-driven visibility into team performance. Without measurable insights, managers cannot identify bottlenecks, workload imbalance, or areas needing improvement.
-
-This project uses analytics to evaluate support operations, measure performance through KPIs, and generate actionable insights to improve efficiency and service quality.
-
-3. Dataset Description :
-
-The dataset represents IT support ticket records. Each row corresponds to a single ticket.
-
-Key fields include:
-
-Ticket ID
-
-Ticket Created Date
-
-Ticket Closed Date
-
-Priority (Low, Medium, High, Critical)
-
-Category (Hardware, Software, Network, etc.)
-
-Assigned Agent
-
-Resolution Time
-
-Response Time
-
-Status (Open, Closed, Escalated)
-
-Customer Satisfaction Score (CSAT)
+This project uses **data analytics techniques** to analyze IT support ticket data, measure performance using key KPIs, and generate actionable insights to improve operational efficiency and service quality.
 
 
-The dataset is structured and suitable for performance analytics and dashboard reporting.
+## 🎯 Problem Statement
+
+Many IT support teams lack **data-driven visibility** into their operations. Without measurable insights, managers cannot easily identify:
+
+- Performance bottlenecks  
+- Workload imbalance among agents  
+- Delays in response and resolution times  
+- High escalation categories  
+
+This project analyzes ticket data and builds **interactive dashboards** to help managers monitor and improve support team performance.
 
 
-4. Key Performance Indicators (KPIs)
+## 📂 Dataset Description
 
-The following KPIs are used to evaluate team performance:
+The dataset represents **IT support ticket records**, where each row corresponds to a single support ticket.
 
-Average Resolution Time (ART)
-Measures how long tickets take to be resolved.
+### Key Fields
 
-Average First Response Time (FRT)
-Measures how quickly agents respond after ticket creation.
+| Column | Description |
+|------|-------------|
+| **Ticket ID** | Unique identifier for each ticket |
+| **Ticket Created Date** | Date when ticket was created |
+| **Ticket Closed Date** | Date when ticket was resolved |
+| **Priority** | Ticket priority (Low, Medium, High, Critical) |
+| **Category** | Issue type (Hardware, Software, Network, etc.) |
+| **Assigned Agent** | Support agent responsible for the ticket |
+| **Resolution Time** | Total time taken to resolve the issue |
+| **Response Time** | Time taken to provide the first response |
+| **Status** | Ticket status (Open, Closed, Escalated) |
+| **Customer Satisfaction Score (CSAT)** | Customer feedback rating |
 
-Ticket Volume
-Total tickets received in a given period.
+The dataset is structured and suitable for **performance analytics and dashboard reporting**.
 
-SLA Compliance Rate
-Percentage of tickets resolved within SLA time.
 
-Escalation Rate
-Percentage of tickets escalated to higher levels.
+## 📈 Key Performance Indicators (KPIs)
 
-Agent Productivity
-Tickets resolved per agent.
+### **1. Average Resolution Time (ART)**
+Measures the average time required to resolve tickets.
 
-Customer Satisfaction Score (CSAT)
-Measures user satisfaction after resolution.
+### **2. First Response Time (FRT)**
+Measures how quickly support agents respond to a ticket.
 
-5. Dashboard Description :
+### **3. Ticket Volume**
+Total number of tickets received during a specific time period.
+
+### **4. SLA Compliance Rate**
+Percentage of tickets resolved within the defined **Service Level Agreement (SLA)**.
+
+### **5. Escalation Rate**
+Percentage of tickets escalated to higher support levels.
+
+### **6. Agent Productivity**
+Number of tickets resolved per agent.
+
+### **7. Customer Satisfaction Score (CSAT)**
+Measures customer satisfaction after issue resolution.
+
+
+## 📊 Dashboard Features
 
 The interactive dashboard provides:
 
-KPI summary cards (ART, FRT, SLA %, CSAT)
+- **KPI Summary Cards** (ART, FRT, SLA %, CSAT)  
+- **Ticket Trend Analysis** (Daily / Monthly)  
+- **Ticket Distribution by Priority**  
+- **Ticket Distribution by Category**  
+- **Agent-wise Performance Comparison**  
+- **SLA Compliance Monitoring**  
+- **Escalation Tracking**  
+- **Customer Satisfaction Breakdown**
 
-Ticket trend analysis (daily/monthly)
-
-Ticket distribution by priority and category
-
-Agent-wise performance comparison
-
-SLA compliance visualization
-
-Escalation tracking
-
-Customer satisfaction breakdown
+These dashboards allow managers to **monitor performance and identify operational inefficiencies**.
 
 
-The dashboard enables managers to monitor performance in real time and identify operational inefficiencies.
+## 🔍 Key Insights
 
-6. Key Insights
-
-High-priority tickets have longer resolution times than expected.
-
-Certain agents handle significantly more tickets, indicating workload imbalance.
-
-Escalations are concentrated in specific categories (e.g., network issues).
-
-SLA compliance drops during peak ticket periods.
-
-Faster response times correlate with higher CSAT scores.
-
-7. Recommendations
-
-1. Redistribute workload evenly among agents to avoid burnout.
+- High-priority tickets take **longer resolution time** than expected.
+- Certain agents handle significantly more tickets, indicating **workload imbalance**.
+- Escalations occur more frequently in **network-related issues**.
+- SLA compliance decreases during **peak ticket periods**.
+- Faster response times correlate with **higher CSAT scores**.
 
 
-2. Provide targeted training for categories with high escalation rates.
+## 💡 Recommendations
+
+### 1️⃣ Balanced Workload Distribution
+Redistribute tickets evenly among agents to avoid overload.
+
+### 2️⃣ Targeted Training
+Provide additional training for categories with high escalation rates.
+
+### 3️⃣ SLA Monitoring
+Implement stricter SLA monitoring during peak ticket periods.
+
+### 4️⃣ Smart Ticket Routing
+Use automated routing based on **issue category and agent expertise**.
+
+### 5️⃣ Performance Benchmarks
+Define clear targets for response and resolution times.
+
+These improvements can significantly enhance **support efficiency and customer satisfaction**.
 
 
-3. Implement stricter SLA monitoring during peak periods.
+## 🛠 Tools & Technologies Used
+
+| Tool | Purpose |
+|-----|--------|
+| **Python (Pandas, NumPy)** | Data cleaning and analysis |
+| **Matplotlib / Seaborn** | Data visualization |
+| **Power BI / Tableau** | Dashboard creation |
+| **Excel** | Initial data review |
+| **Jupyter Notebook** | Development environment |
 
 
-4. Introduce automated ticket routing based on category and expertise.
+## 📸 Dashboard Preview
+
+![Dashboard Preview](images/dashboard.png)
 
 
-5. Set performance benchmarks for response and resolution times.
-
-
-
-These actions directly improve operational efficiency and customer satisfaction.
-
-8. Tools Used
-
-Python (Pandas, NumPy) – Data cleaning and analysis
-
-Matplotlib / Seaborn – Data visualization
-
-Power BI / Tableau – Dashboard creation
-
-Excel – Initial data review
-
-Jupyter Notebook – Development environment
+## 🚀 Project Workflow
 
 
